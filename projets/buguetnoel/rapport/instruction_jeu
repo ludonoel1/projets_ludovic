@@ -1,0 +1,6 @@
+ make : permet de compiler tout le jeu
+make ./bin/server : permet de creer le serveur et de le compiler sa partie.
+il suffit de lancer :
+
+;/bin/client "NOM DU CHOIX" pour lancer une partie du jeu.
+
