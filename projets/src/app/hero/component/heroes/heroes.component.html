@@ -1,0 +1,13 @@
+<h2> My Heroes</h2>
+<ul class="heroes">
+  <li *ngFor="let hero of heroes">
+  <a routerLink="detail/{{hero.id}}">
+    <span id="badge">{{hero.id }} </span>{{hero.name}}
+  </a>
+  </li>
+</ul>
+
+<label>name:
+  <input id="firstName" placeholder="name">
+  <!--<input type="submit" (click)="addHeroes()">-->
+</label>
